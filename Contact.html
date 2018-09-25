@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Contact-style.css" />
+    <script src="main.js"></script>
+</head>
+<style>
+  
+</style>
+<body>
+ <ul>
+     <li><a href="Start.html"> Home</a></li>
+      <li><a href="Hobbypagina.html"> Hobby's</a></li>
+     <li><a class="activepagebutton" href="Contact.html"> Contact</a></li>
+ </ul>
+ <h1>Contact</h1>
+ <p>Zit je iets dwars? Heb je een vraag? Weet je iets niet? Zeer onwaarschijnlijk kan ik je dan helpen, maar probeer het toch maar te vragen voor de zekerheid. </p>
+    
+ <div class="container">
+        <form action="action_page.php">
+      
+          <label for="naam">Naam:</label>
+          <input type="text" id="naam" name="naam" placeholder="Jouw naam...">
+      
+          <label for="email">Email adres:</label>
+          <input type="text" id="email" name="emailadres" placeholder="Jouw email adres...">
+      
+          <label for="onderwerp">Onderwerp:</label>
+          <select id="onderwerp" name="onderwerp">
+            <option value="hobby's">Hobby's</option>
+            <option value="werk">Werk</option>
+            <option value="info">Info</option>
+            <option value="overig">Overig</option>
+            <option value="opleiding">Opleiding</option>
+          </select>
+      
+          <label for="vraag"> Vraag:</label>
+          <textarea id="vraag" name="vraag" placeholder="Stel hier jouw vraag..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Verzenden">
+      
+        </form>
+      </div>
+</body>
+</html>
