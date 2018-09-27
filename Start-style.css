@@ -23,6 +23,11 @@ body {background-color: white}
 .activepagebutton {
     background-color: gray;
 }
+#foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1{text-align: center}
 h2{text-align: center}
 p{text-align: center}
